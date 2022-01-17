@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+.container .header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  row-gap: 10px;
+}
+
+.chip {
+  border-radius: 20px;
+  color: black;
+  border: 1px solid gray;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+.activeChip {
+  border: 1px solid #005fdb;
+  color: #005fdb;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.body {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

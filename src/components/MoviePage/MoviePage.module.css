@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.main img {
+  flex: 1.5;
+  width: 100%;
+  object-fit: contain;
+}
+
+.main .details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.details .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.details .sub {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.details .desc {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.details label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #525252;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  border-bottom: 1px solid #525252;
+}
+
+.similar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+.similar .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.similar .movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
